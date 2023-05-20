@@ -39,3 +39,15 @@ const login = prompt("Enter your login:");
 const email = prompt("Enter your email:");
 const password = prompt("Enter your password:");
 alert(`Dear ${login}, your email is ${email}, your password is ${password}.`);
+
+//8
+const secondInMinute = 60;
+const minutesInHour = 60;
+const hoursInDay = 24;
+const daysInMonth = 30;
+const oneHour = secondInMinute * minutesInHour;
+const oneDay = oneHour * hoursInDay;
+const oneMonth = oneDay * daysInMonth;
+alert(`One hour is equal to ${oneHour} seconds.`);
+alert(`One day is equal to ${oneDay} seconds.`);
+alert(`One day is equal to ${oneMonth} seconds.`);
